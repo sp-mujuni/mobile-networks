@@ -18,23 +18,23 @@ void main(List<String> args) {
   });
 }
   
-  // class
-  class Contact{
-    String name = "";
-    String email = "";
-    String phone = "";
-    int _age = 0;
-    double salary = 0.0;
+// class
+class Contact{
+  String name = "";
+  String email = "";
+  String phone = "";
+  int _age = 0;
+  double salary = 0.0;
 
-    // constructor (all fields required, age is abstracted, so it is private meaning it can't be accessed outside the class)
-    Contact(this.name, this.email);
+  // constructor (all fields required, age is abstracted, so it is private meaning it can't be accessed outside the class)
+  Contact(this.name, this.email);
 
-    // method
-    show_contact(){
-      print('Name: $name');
-      print('Email: $email');
-      print('Phone: $phone');
-      print('Age: $_age');
-      print('Salary: $salary');
-    }
+  // method
+  show_contact(){
+    print('Name: $name');
+    print('Email: $email');
+    print('Phone: $phone');
+    print('Age: $_age');
+    print('Salary: $salary');
   }
+}
